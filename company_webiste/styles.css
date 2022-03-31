@@ -1,0 +1,152 @@
+/* GENERAL STYLES */
+
+* {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+h1 {
+  font-family: "Nunito", sans-serif;
+}
+
+p,
+a,
+h3,
+h2 {
+  font-family: "Source Serif Pro", serif;
+}
+
+.banner h1,
+.banner p,
+.team-member h2,
+.team-member h3 {
+  color: white;
+}
+
+.image-container img {
+  width: 100%;
+  opacity: 0.95;
+  box-shadow: 5px 5px 6px 2px black;
+}
+
+/* HEADER STYLES */
+
+.title {
+  text-align: center;
+  width: auto;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  padding: 10px;
+  /* border: 1px solid red; */
+  box-shadow: 1px 5px 15px 2px #888888;
+}
+
+header {
+  /* border: 1px solid red; */
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+
+/* HERO STYLES */
+
+#hero {
+  background-image: url("./resources/images/clement-helardot-95YRwf6CNw8-unsplash.jpg");
+  height: 600px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  box-shadow: 1px 1px 4px 2px black;
+}
+
+.banner {
+  text-align: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  box-shadow: 1px 1px 4px 2px black;
+}
+
+/* PORTFOLIO STYLES */
+
+.portfolio-title {
+  padding: 30px;
+}
+
+#portfolio h1,
+#portfolio h3 {
+  text-align: center;
+}
+
+#portfolio {
+  width: auto;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.item-container {
+  width: auto;
+  margin: 5px;
+}
+
+/* TEAM STYLES */
+
+.team {
+  background-image: url("./resources/images/team-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  width: auto;
+  box-shadow: 1px 1px 4px 2px black;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+#team-general h1,
+.team-member h2,
+h3 {
+  text-align: center;
+}
+
+.image-container {
+  width: auto;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+}
+
+#copyright {
+  margin-top: 100px;
+}
